@@ -1,5 +1,5 @@
 const itens = [
-  { url: "/img/1.png", nome: "CAIXA DE PIZZA", medida: "Nº 20, 30, 35, 40,45" },
+  { url: "./img/1.png", nome: "CAIXA DE PIZZA", medida: "Nº 20, 30, 35, 40,45" },
   { url: "/img/2.png", nome: "CAIXA SMART", medida: "Nº30, 35, 40" },
   { url: "/img/3.png", nome: "RETANGULAR PP1", medida: "26x10x6cm" },
   { url: "/img/4.png", nome: "RETANGULAR PP2", medida: "25x15x7cm" },
@@ -199,3 +199,4 @@ function renderCards(items) {
     container.appendChild(card);
   });
 }
+
