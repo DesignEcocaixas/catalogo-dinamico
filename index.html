@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ecocaixas - Catálogo</title>
+</head>
+
+<body>
+    <div class="header">
+        <img src="logo.png" alt="">
+        <h1>CAIXAS E MEDIDAS</h1>
+    </div>
+    <hr><br><br>
+    <div class="btns-container">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Buscar caixa..." />
+            <button id="clearBtn">Limpar</button>
+        </div>
+        <div class="download-container">
+            <button id="downloadBtn">Baixar Catálogo em PDF</button>
+        </div>
+    </div>
+    <br><br>
+    <div class="container" id="cardsContainer"></div>
+    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</body>
+
+</html>

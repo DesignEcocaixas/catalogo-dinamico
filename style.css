@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0px 10%;
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #339966;
+    font-size: 3em;
+}
+
+.header>img {
+    width: 200px;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    border: 4px solid #339966;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    max-width: 200px;
+    height: 150px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.card p {
+    margin: 0;
+    color: #555;
+}
+
+/* Barra de pesquisa */
+#searchInput {
+    padding: 10px 15px;
+    width: 250px;
+    outline: none;
+    font-size: 16px;
+    transition: border-color 0.2s;
+    margin-bottom: 30px;
+}
+
+#searchInput:focus {
+    border-color: #0056b3;
+}
+
+/* Botão */
+#clearBtn {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #ea3838;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#clearBtn:hover {
+    background-color: #0056b3;
+}
+
+.btns-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#downloadBtn {
+    width: 200px;
+    height: 40px;
+    background-color: #339966;
+    color: #fff;
+    border-style: none;
+    font-size: 16px;
+}
+
+#modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  max-width: 90%;   /* deixa ocupar até 90% da largura */
+  max-height: 90%;  /* até 90% da altura */
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  overflow: auto;   /* caso ultrapasse o tamanho */
+}
+
+.modal-content img {
+  width: 100%;       /* ocupa toda a largura do modal */
+  height: auto;      /* mantém proporção */
+  max-height: 70vh;  /* imagem pode chegar a 70% da altura da tela */
+  margin-bottom: 15px;
+  object-fit: contain; /* garante que não distorce */
+}
+
+#closeModal {
+  position: absolute;
+  top: 10px; right: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        margin: 0;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    h1 {
+        margin: 20px;
+    }
+
+    #searchInput {
+        width: 100%;
+    }
+
+    .btns-container{
+        flex-direction: column;
+    }
+}
