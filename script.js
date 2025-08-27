@@ -24,7 +24,7 @@ const itens = [
   { url: "img/23.png", nome: "CAIXA MALETA P", medida: "27x22x23cm" },
   { url: "img/24.png", nome: "CAIXA MALETA M", medida: "45x25x21cm" },
   { url: "img/25.png", nome: "CAIXA MALETA G", medida: "44x25x25cm" },
-  { url: "img/26.png", nome: "CAIXA MELETA GG", medida: "44x44x44cm" },
+  { url: "img/26.png", nome: "CAIXA MALETA GG", medida: "44x44x44cm" },
   { url: "img/27.png", nome: "MALETA A1", medida: "32x24x28cm" },
   { url: "img/28.png", nome: "MALETA B1", medida: "16x11x11cm" },
   { url: "img/29.png", nome: "MALETA B2", medida: "28x11x10cm" },
