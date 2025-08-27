@@ -20,11 +20,11 @@ const itens = [
   { url: "img/19.png", nome: "CAIXA BALDE", medida: "1,5 e 1,0L" },
   { url: "img/20.png", nome: "CAIXA STUFFED M", medida: "16,5x17,5x7,5cm" },
   { url: "img/21.png", nome: "CAIXA STUFFED G", medida: "26x26x7cm" },
-  { url: "img/22.png", nome: "CAIXA MALETA PP", medida: "18x14x17cm" },
-  { url: "img/23.png", nome: "CAIXA MALETA P", medida: "27x22x23cm" },
-  { url: "img/24.png", nome: "CAIXA MALETA M", medida: "45x25x21cm" },
-  { url: "img/25.png", nome: "CAIXA MALETA G", medida: "44x25x25cm" },
-  { url: "img/26.png", nome: "CAIXA MALETA GG", medida: "44x44x44cm" },
+  { url: "img/22.png", nome: "MALETA PP", medida: "18x14x17cm" },
+  { url: "img/23.png", nome: "MALETA P", medida: "27x22x23cm" },
+  { url: "img/24.png", nome: "MALETA M", medida: "45x25x21cm" },
+  { url: "img/25.png", nome: "MALETA G", medida: "44x25x25cm" },
+  { url: "img/26.png", nome: "MALETA GG", medida: "44x44x44cm" },
   { url: "img/27.png", nome: "MALETA A1", medida: "32x24x28cm" },
   { url: "img/28.png", nome: "MALETA B1", medida: "16x11x11cm" },
   { url: "img/29.png", nome: "MALETA B2", medida: "28x11x10cm" },
@@ -45,10 +45,10 @@ const itens = [
   { url: "img/44.png", nome: "QUADRADA P", medida: "16x16x5cm" },
   { url: "img/45.png", nome: "QUADRADA M", medida: "18x18x7cm" },
   { url: "img/46.png", nome: "QUADRADA G", medida: "21x19x9cm" },
-  { url: "img/47.png", nome: "CAIXA MALETA 21887", medida: "37x28x28cm" },
-  { url: "img/48.png", nome: "CAIXA MALETA 18799", medida: "42x24x24cm" },
-  { url: "img/49.png", nome: "CAIXA MALETA 21768", medida: "34x26x31cm" },
-  { url: "img/50.png", nome: "CAIXA MALETA 21767", medida: "28x21x26cm" }
+  { url: "img/47.png", nome: "MALETA 21887", medida: "37x28x28cm" },
+  { url: "img/48.png", nome: "MALETA 18799", medida: "42x24x24cm" },
+  { url: "img/49.png", nome: "MALETA 21768", medida: "34x26x31cm" },
+  { url: "img/50.png", nome: "MALETA 21767", medida: "28x21x26cm" }
 ];
 
 const container = document.getElementById("cardsContainer");
