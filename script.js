@@ -7,7 +7,7 @@ const itens = [
   { url: "img/6.png", nome: "RETANGULAR P", medida: "28X18X5cm" },
   { url: "img/7.png", nome: "RETANGULAR M", medida: "35x22x5cm" },
   { url: "img/8.png", nome: "RETANGULAR G", medida: "46x32x5cm" },
-  { url: "img/9.png", nome: "CAIXA P/ BOLO PP", medida: "25x25x16cm" },
+  { url: "img/9.png", nome: "CAIXA P/ BOLO PP", medida: "30x30x16cm" },
   { url: "img/10.png", nome: "CAIXA P/ BOLO M", medida: "34x23x15cm" },
   { url: "img/11.png", nome: "CAIXA P/ BOLO G", medida: "29x31x23cm" },
   { url: "img/12.png", nome: "RETANGULAR PP", medida: "26x15x4cm" },
@@ -199,6 +199,7 @@ function renderCards(items) {
     container.appendChild(card);
   });
 }
+
 
 
 
