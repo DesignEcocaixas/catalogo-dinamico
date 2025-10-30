@@ -49,8 +49,8 @@ const itens = [
   { url: "img/48.png", nome: "MALETA 18799", medida: "42x24x24cm" },
   { url: "img/49.png", nome: "MALETA 21768", medida: "34x26x31cm" },
   { url: "img/50.png", nome: "MALETA 21767", medida: "28x21x26cm" },
-  { url: "img/52.png", nome: "COMBO GG", medida: "35x56x20cm" },
-  { url: "img/53.png", nome: "MALETA C3", medida: "35x42x7cm" }
+  { url: "img/52.png", nome: "COMBO GG", medida: "35x42x7cm" },
+  { url: "img/53.png", nome: "MALETA C3", medida: "35x56x20cm" }
 ];
 
 const container = document.getElementById("cardsContainer");
