@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +8,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>Ecocaixas - Catálogo</title>
 </head>
+
 <body>
     <div class="header">
-        <img src="logo.png" alt="">
-        <h1>CAIXAS E MEDIDAS</h1>
-    </div>
-    <hr><br><br>
-    <div class="btns-container">
+        <div class="logo-container">
+            <img src="logo.png" alt="" width="100px">
+            <p>Catálogo digital</p>
+        </div>
+
         <div class="search-container">
             <input type="text" id="searchInput" placeholder="Buscar caixa..." />
-            <button id="clearBtn">Limpar</button>
-        </div>
-        <div class="download-container">
-            <button id="downloadBtn">Baixar Catálogo em PDF</button>
+            <button id="clearBtn"><i class="fa-solid fa-rotate-right"></i></button>
+
+            <div class="download-container">
+                <button id="downloadBtn"><i class="fa-solid fa-download"></i></button>
+            </div>
+
         </div>
     </div>
-    <br><br>
+
     <div class="container" id="cardsContainer"></div>
+
     <script src="./script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </body>
+
 </html>

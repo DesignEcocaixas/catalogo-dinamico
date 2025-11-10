@@ -12,7 +12,7 @@ const itens = [
   { url: "img/bolo-m.png", nome: "CAIXA P/ BOLO M", medida: "34x23x15cm" },
   { url: "img/bolo-g.png", nome: "CAIXA P/ BOLO G", medida: "29x31x23cm" },
   { url: "img/calzone.png", nome: "CALZONE", medida: "26x15x4cm" },
-  { url: "img/calzne-g.png", nome: "CALZONE G", medida: "36x19x6cm" },
+  { url: "img/calzone-g.png", nome: "CALZONE G", medida: "36x19x6cm" },
   { url: "img/caixa-combo.png", nome: "CAIXA COMBO", medida: "36x24x6cm" },
   { url: "img/caixa-combo-m.png", nome: "CAIXA COMBO M", medida: "30x23x4cm" },
   { url: "img/caixa-metro.png", nome: "CAIXA METRO", medida: "100x35x4cm" },
