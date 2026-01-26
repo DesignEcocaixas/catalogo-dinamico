@@ -50,7 +50,9 @@ const itens = [
   { url: "img/maleta-21768.png", nome: "MALETA 21768", medida: "34x26x31cm" },
   { url: "img/maleta-21767.png", nome: "MALETA 21767", medida: "28x21x26cm" },
   { url: "img/combo-gg.png", nome: "COMBO GG", medida: "35x42x7cm" },
-  { url: "img/maleta-c3.png", nome: "MALETA C3", medida: "35x56x20cm" }
+  { url: "img/maleta-c3.png", nome: "MALETA C3", medida: "35x56x20cm" },
+  { url: "img/prefeitura-m1.png", nome: "PREFEITURA M1", medida: "60x30x42cm" },
+  { url: "img/justi-m1.png", nome: "MALETA G6", medida: "83x56x34cm" }
 ];
 
 const container = document.getElementById("cardsContainer");
