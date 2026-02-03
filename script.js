@@ -32,7 +32,7 @@ const itens = [
   { url: "img/maleta-b3.png", nome: "MALETA B3", medida: "16x11x20cm" },
   { url: "img/maleta-b4.png", nome: "MALETA B4", medida: "28x14x11cm" },
   { url: "img/maleta-c1.png", nome: "MALETA C1", medida: "40x28x27cm" },
-  { url: "img/maleta-c2.png", nome: "MALETA C2", medida: "45x25x33cm" },
+  //---DESCONTINUADA---{ url: "img/maleta-c2.png", nome: "MALETA C2", medida: "45x25x33cm" },
   { url: "img/maleta-g1.png", nome: "MALETA G1", medida: "45x25x33cm" },
   { url: "img/caixa-l1.png", nome: "CAIXA L1", medida: "10,9x10,9x25cm" },
   { url: "img/caixa-l2.png", nome: "CAIXA L2", medida: "9,1x9,1x31,2cm" },
@@ -203,6 +203,8 @@ function renderCards(items) {
     container.appendChild(card);
   });
 }
+
+
 
 
 
