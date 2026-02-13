@@ -1,7 +1,7 @@
 const itens = [
   { url: "img/pizza.png", nome: "CAIXA DE PIZZA", medida: "Nº 20, 30, 35, 40,45" },
   { url: "img/smart.png", nome: "CAIXA SMART", medida: "Nº30, 35, 40" },
-  { url: "img/retangular-pp.png", nome: "RETANGULAR PP", medida: "26x15x4cm" },
+  { url: "img/retangular-pp.png", nome: "RETANGULAR PP", medida: "21,5x14,5x5cm" },
   { url: "img/retangular-pp1.png", nome: "RETANGULAR PP1", medida: "26x10x6cm" },
   { url: "img/retangular-pp2.png", nome: "RETANGULAR PP2", medida: "25x15x7cm" },
   { url: "img/retangular-mini.png", nome: "RETANGULAR MINI", medida: "21x11x04cm" },
