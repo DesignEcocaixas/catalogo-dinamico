@@ -52,7 +52,10 @@ const itens = [
   { url: "img/combo-gg.png", nome: "COMBO GG", medida: "35x42x7cm" },
   { url: "img/maleta-c3.png", nome: "MALETA C3", medida: "35x56x20cm" },
   { url: "img/prefeitura-m1.png", nome: "MALETA C6", medida: "83x56x34cm" },
-  { url: "img/justi-m1.png", nome: "MALETA G6", medida: "60x30x42cm" }
+  { url: "img/justi-m1.png", nome: "MALETA G6", medida: "60x30x42cm" },
+  { url: "img/c4.png", nome: "MALETA C4", medida: "31,5x31,5x37cm" },
+  { url: "img/g5.png", nome: "MALETA G5", medida: "42x31,5x18,5cm" },
+  { url: "img/g7.png", nome: "MALETA G7", medida: "31,5x31,5x37cm" },
 ];
 
 const container = document.getElementById("cardsContainer");
