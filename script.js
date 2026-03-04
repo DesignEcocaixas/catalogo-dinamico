@@ -200,7 +200,7 @@ const caixas = [
   },
 
   {
-    modelo: "Maleta ORBI",
+    modelo: "Maleta",
     tamanhos: [
       { tamanho: "15613", medidas: "", url: "" },
       { tamanho: "5548", medidas: "", url: "" },
